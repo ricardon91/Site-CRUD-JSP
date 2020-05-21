@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Log in</title>
+    <title>Sign up</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -17,7 +17,7 @@
 	<c:import url="Menu.jsp"/>
     <!-- Container Principal -->
     <div id="main" class="container">
-       <h3 class="page-header">Login</h3>
+       <h3 class="page-header">Sign Up</h3>
        <!-- Formulario de Login -->
         <form action="controller.do" method="post">
 				<div class="row col-md-12">
@@ -30,12 +30,12 @@
 				<div class="form-group">
 					<div class="input-group col-md-4">
 					   <div class="input-group-addon"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></div> 
-					   <input type="password" name="passwd" id="passwd" class="form-control" placeholder="Password" required/>
+					   <input type="password" name="password" id="password" class="form-control" placeholder="Password" required/>
 					</div>
 				</div>
 				</div>
 				<div class="row col-md-12">
-					<button type="submit" class="btn btn-primary" name="command" value="FazerLogin"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Ok</button>
+					<button type="submit" class="btn btn-primary" name="command" value="CadastrarUsuario"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Sign up</button>
 				</div>
 			</form>    
 			</div>

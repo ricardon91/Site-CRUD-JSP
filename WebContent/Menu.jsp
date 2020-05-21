@@ -15,6 +15,8 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="controller.do?command=ListarPaisReiniciar">Country</a>
                     </li>
+                    <li><a href="controller.do?command=CadastrarUsuario">Sign up</a>
+                    </li>
                     <li><a href="#">Branches</a>
                     </li>
                     <li><a href="#">Styles</a>
