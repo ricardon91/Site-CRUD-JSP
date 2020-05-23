@@ -14,6 +14,7 @@ public class UsuarioService {
 	
 	public UsuarioService() {
 		dao = new PaisDAO();
+		daoUsu = new UsuarioDAO();
 	}
 	
 	public ArrayList<Pais> listarPaises(){

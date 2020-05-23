@@ -30,7 +30,7 @@
 				<div class="form-group">
 					<div class="input-group col-md-4">
 					   <div class="input-group-addon"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span></div> 
-					   <input type="password" name="passwd" id="passwd" class="form-control" placeholder="Password" required/>
+					   <input type="password" name="password" id="password" class="form-control" placeholder="Password" required/>
 					</div>
 				</div>
 				</div>
